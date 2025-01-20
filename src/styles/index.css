@@ -10,3 +10,46 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background: black;
+}
+.Counter{
+    color:red;
+    display:flex;
+    background: black;
+    margin:auto;
+    margin-top: 150px;
+    border: 25px  solid red; 
+    height: 350px;
+    width: 950px;
+    border-radius: 20px 20px 0 0;
+    font-family:'Times New Roman', Times, serif;
+    padding:20px;
+    box-shadow: 10px 10px 5px lightblue;
+    transform-style: preserve-3d;
+    transition: transform .8s ease-in-out;
+    cursor: pointer;
+}
+.Contadorsegundos2{
+    display:flex;
+}
+.digit{
+    color:lightblue;
+    display:flex;
+    font-size: 200px;
+    margin:auto;
+    text-shadow: 4px 4px 8px red;
+}
+.reloj{   
+    height: 250px;
+    width: 200px;
+    color: white;
+    margin:5px;
+}
+.Counter:hover{
+    transform: rotateY(180deg);
+}
+.tittle{
+    color:red;
+    font-size: 100px;
+}
